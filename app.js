@@ -74,7 +74,7 @@ app.get("/signout",function(req,res){
     res.redirect("/");
 })
 // ===========================
-// ===========================
+// ========================
 
 app.get('/',function(req,res){
     res.render("home",{user:useris});
